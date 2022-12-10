@@ -19,6 +19,24 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <style>
+      img {
+        width: 200px;
+        height: 170px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20%;
+      }
+      @media screen and (min-width:768px) {
+        img {
+          width: 400px;
+          height: 270px;
+        }
+        
+      }
+
+    </style>
   </head>
 
   <body class="container-fluid">
@@ -35,15 +53,22 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-5">
-          <img
-            class="img-fluid"
-            src="GallowsWithLeftArm.png"
-            alt="Parts of a man hanging from a gallow"
-          />
-          <p class="text-warning">Attempts Remaining: 3</p>
-        </div>
+        <img
+          class="d-block"
+          src="GallowsWithBody.png"
+          class="img-fluid"
+          alt="Parts of a man hanging from a gallow"
+        />
+        <div class="container border-dark p-2 mt-2 mb-1">
+          <div class="row justify-content-center">
+            <div class="border-bottom border-dark col-1 mx-1"><p></p></div>
+            <div class="border-bottom border-dark col-1 ms-1 mx-1"><p></p></div>
+            <div class="border-bottom border-dark col-1 ms-1 mx-1"><p></p></div>
+            <div class="border-bottom border-dark col-1 ms-1 mx-1"><p></p></div>
+            <div class="border-bottom border-dark col-1 ms-1 mx-1"><p></p></div>
+          </div>
 
+        </div>
         <div class="col-lg-7">
           <div class="container d-block d-lg-none">
             <div class="row justify-content-center">
